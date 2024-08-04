@@ -41,7 +41,6 @@ import Lang from "@/scripts/Lang";
 import PhoneView from "@/components/PhoneView.vue";
 
 export default defineComponent({
-    name: "HomeView",
     components: {
         PypollIcon,
         GetText,
