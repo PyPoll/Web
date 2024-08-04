@@ -9,7 +9,7 @@ const router = createRouter({
         // { path: '/terms',           name: 'Terms',          component: () => import("@/views/LegalDocView.vue"),       beforeEnter: () => true },
 
         // 404 redirect
-        // { path: "/:catchAll(.*)", name: 'NotFound', component: () => import("@/views/NotFound.vue") }
+        { path: "/:catchAll(.*)", name: 'NotFound', component: () => import("@/views/NotFound.vue") }
     ]
 });
 
