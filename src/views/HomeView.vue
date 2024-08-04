@@ -1,23 +1,23 @@
 <template>
     <div class="flex flex-col grow min-h-full h-fit min-w-0 max-w-full w-full bg-indigo-500">
         <div class="flex w-full h-fit justify-evenly items-center pt-40 ">
-            <div class="show-right relatives">
+            <div class="hidden lg:flex show-right relatives">
                 <div class="absolute w-fit h-fit -translate-x-1/2 -translate-y-1/3">
                     <PhoneView width="14" screen="/screens/register.jpg" :rotation="{x: 20, y: 20, z: -5}" />
                 </div>
             </div>
             <div class="flex flex-col justify-start items-center">
-                <div class="show-up flex w-fit h-fit justify-center items-center space-x-12">
-                    <PypollIcon class="w-40 drop-shadow-lg" />
+                <div class="show-up flex w-fit h-fit justify-center items-center space-x-4 md:space-x-8 lg:space-x-12">
+                    <PypollIcon class="w-24 md:w-32 lg:w-40 drop-shadow-lg" />
                     <div class="flex">
                         <h1 v-for="(letter, index) in name" :key="letter"
-                            class="show-up text-8xl font-extrabold drop-shadow-lg"
+                            class="show-up text-5xl md:text-7xl lg:text-8xl font-extrabold drop-shadow-lg"
                             :style="'animation-delay: '+index*50+'ms;'">
                             {{ letter }}
                         </h1>
                     </div>
                 </div>
-                <p class="show-down text-xl drop-shadow-lg">
+                <p class="show-down text-base md:text-lg lg:text-xl drop-shadow-lg px-4 text-center">
                     <GetText :context="Lang.CreateTranslationContext('main', 'Slogan')" />
                 </p>
             </div>
@@ -32,11 +32,11 @@
         </div>
         <div class="flex flex-col bg-slate-800 p-4">
             <div class="flex w-full h-fit justify-center items-center">
-                Copyright © 2024 Pypoll. All rights reserved.
+                <p class="text-center">Copyright © 2024 Pypoll. All rights reserved.</p>
                 <p class="px-4">|</p>
-                <a href="/privacy" class="hover:text-white hover:underline">Privacy Policy</a>
+                <a href="/privacy" class="hover:text-white hover:underline text-center">Privacy Policy</a>
                 <p class="px-4">|</p>
-                <a href="/terms" class="hover:text-white hover:underline">Terms of Use</a>
+                <a href="/terms" class="hover:text-white hover:underline text-center">Terms of Use</a>
             </div>
         </div>
     </div>

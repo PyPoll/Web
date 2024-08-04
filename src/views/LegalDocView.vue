@@ -6,8 +6,8 @@
                 <p class="show-down text-xl font-semibold"> {{ documentDate() }} </p>
             </div>
         </div>
-        <div class="flex max-h-full min-h-0 p-4">
-            <div class="flex grow p-4 overflow-scroll max-h-full min-h-0 bg-slate-800 rounded-xl">
+        <div class="flex max-h-full min-h-0 pt-4 pb-1 px-1 md:p-2 md:pt-4 lg:p-4">
+            <div class="flex grow overflow-scroll max-h-full min-h-0 bg-slate-800 rounded-xl p-2 md:p-3 lg:p-4">
                 <div class="show-up w-full h-fit">
                     <component :is="document()" />
                 </div>
