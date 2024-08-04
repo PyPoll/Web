@@ -1,8 +1,8 @@
 <template>
     <div class="space-y-4">
-        <p>This privacy notice for FurWaz ("<b>we</b>," "<b>us</b>," or "<b>our</b>"), describes how and why we might collect, store, use, and/or share ("<b>process</b>") your information when you use our services ("<b>Services</b>"), such as when you:</p>
+        <p>This privacy notice for Pypoll ("<b>we</b>," "<b>us</b>," or "<b>our</b>"), describes how and why we might collect, store, use, and/or share ("<b>process</b>") your information when you use our services ("<b>Services</b>"), such as when you:</p>
         <ul>
-            <li> Visit our website at <a href="https://furwaz.fr">https://furwaz.fr</a>, or any website of ours that links to this privacy notice </li>
+            <li> Visit our website at <a href="https://pypoll.com">https://pypoll.com</a>, or any website of ours that links to this privacy notice </li>
             <li> Engage with us in other related ways, including any sales, marketing, or events </li>
         </ul>
 
@@ -119,14 +119,9 @@
             We do not process sensitive information.</p>
 
         <p>
-            <b>Payment Data:</b>
-            <br>
-            We may collect data necessary to process your payment if you make purchases, such as your payment instrument number, and the security code associated with your payment instrument. All payment data is stored by Stripe. You may find their privacy notice link(s) here: <a href="https://stripe.com/fr/privacy">https://stripe.com/fr/privacy</a>.</p>
-
-        <p>
             <b>Social Media Login Data:</b>
             <br>
-            We may provide you with the option to register with us using your existing social media account details, like your Facebook, Twitter, or other social media account. If you choose to register in this way, we will collect the information described in the section called "HOW DO WE HANDLE YOUR SOCIAL LOGINS?" below.</p>
+            We may provide you with the option to register with us using your existing social media account details, like your Facebook, Twitter, or other social media account. If you choose to register in this way, we will collect the information described in the section called "<a href="#sociallogins">HOW DO WE HANDLE YOUR SOCIAL LOGINS?</a>" below.</p>
 
         <p>All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.</p>
 
@@ -293,15 +288,15 @@
         <p>If you have questions or comments about this notice, you may email us at <a href="mailto:contact@furwaz.fr">contact@furwaz.fr</a> or contact us by post at:</p>
 
         <p class="ml-4">
-            FurWaz <br>
-            6 Faubourg Saint Claude <br>
-            Manonville, Grand Est 54 385 <br>
+            Pypoll <br>
+            33 Rue du Morvan <br>
+            Vandoeuvre-Lès-Nancy, Grand-Est 54500 <br>
             France <br>
         </p>
 
         <h1 id="request">14. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h1>
 
-        <p>You have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please visit: <a href="https://furwaz.fr/my/profile">https://furwaz.fr/my/profile</a>.</p>
+        <p>You have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please visit: <a href="https://app.pypoll.com/profile">https://app.pypoll.com/profile</a>.</p>
     </div>
 </template>
 
