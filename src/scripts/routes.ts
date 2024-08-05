@@ -1,8 +1,7 @@
 import { METHOD, Route } from "./API";
 
 export default {
-    // AUTH: {
-    //     LOGIN: (email: string, password: string) => new Route(`auth/login`, METHOD.POST, undefined, {email, password}),
-    //     // TOKEN route not here because handled by API class
-    // }
+    BETA: {
+        REGISTER: (email: string) => new Route(`beta/register`, METHOD.POST, undefined, { email }),
+    }
 };
