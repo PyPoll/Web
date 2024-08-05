@@ -26,7 +26,7 @@
             <span class="h-32 w-full" />
             <div class="flex justify-center item-center px-8 py-20">
                 <div class="show-right flex grow w-full  justify-center items-center">
-                    <div class="flex flex-col max-w-[30vw] space-y-8">
+                    <div class="flex flex-col md:max-w-[70vw] lg:max-w-[30vw] space-y-8">
                         <h2>
                             <GetText :context="Lang.CreateTranslationContext('main', 'Bloc1TitleA')" />
                             <span class="highlight">
@@ -58,7 +58,7 @@
                     <PhoneView width="14" :screen="`/screens/createPoll${darkMode?'':'-light'}.jpg`" :rotation="{ x: 20, y: 20, z: -5 }" />
                 </div>
                 <div class="show-left flex grow w-full  justify-center items-center">
-                    <div class="flex flex-col max-w-[30vw] space-y-8 text-slate-200">
+                    <div class="flex flex-col max-w-[540px] md:max-w-[70vw] lg:max-w-[30vw] space-y-8 text-slate-200">
                         <h2>
                             <GetText :context="Lang.CreateTranslationContext('main', 'Bloc2TitleA')" />
                             <span class="highlight-dark">
@@ -84,7 +84,7 @@
             </svg>
             <div class="flex justify-center item-center px-8 py-20">
                 <div class="flex grow w-full  justify-center items-center">
-                    <div class="show-right flex flex-col max-w-[30vw] space-y-8">
+                    <div class="show-right flex flex-col max-w-[540px] md:max-w-[70vw] lg:max-w-[30vw] space-y-8">
                         <h2>
                             <GetText :context="Lang.CreateTranslationContext('main', 'Bloc3TitleA')" />
                             <span class="highlight">
@@ -107,9 +107,9 @@
                 </div>
             </div>
             <span class="h-32 w-full" />
-            <div class="flex flex-col justify-center item-center px-8 py-20">
+            <div class="flex flex-col justify-center item-center px-2 md:px-8 py-20">
                 <div class="show-up flex grow w-full pb-10 justify-center items-center">
-                    <div class="flex flex-col max-w-[50vw] space-y-8">
+                    <div class="flex flex-col max-w-[540px] md:max-w-[70vw] lg:max-w-[50vw] space-y-8">
                         <h2 class="text-center">
                             <GetText :context="Lang.CreateTranslationContext('main', 'ReadyA')" />
                             <span class="highlight">
@@ -122,32 +122,32 @@
                         </p>
                     </div>
                 </div>
-                <div ref="beta-zone" class="flex justify-center item-center px-8 overflow-hidden transition-all" style="max-height: 0px;">
-                    <div class="flex flex-col w-fit h-fit p-4 border-2 rounded-xl border-slate-400 dark:border-slate-600 space-y-4">
+                <div ref="beta-zone" class="flex justify-center item-center px-2 md:px-8 overflow-hidden transition-all" style="max-height: 0px;">
+                    <div class="flex flex-col w-fit h-fit max-w-full p-4 border-2 rounded-xl border-slate-400 dark:border-slate-600 space-y-4">
                         <p class="text-slate-600 dark:text-slate-400 italic">
                             <GetText :context="Lang.CreateTranslationContext('main', 'IndicateEmail')" />
                         </p>
                         <div class="flex grow justify-center items-center space-x-4">
-                            <p><GetText :context="Lang.CreateTranslationContext('main', 'Email')" /></p>
-                            <input type="email" name="email" class="bg-slate-50 dark:bg-slate-600 rounded-lg p-2 focus:outline focus:outline-indigo-500">
+                            <p class="whitespace-nowrap"><GetText :context="Lang.CreateTranslationContext('main', 'Email')" /></p>
+                            <input type="email" name="email" class="flex w-fit min-w-0 max-w-full bg-slate-50 dark:bg-slate-600 rounded-lg p-2 focus:outline focus:outline-indigo-500">
                         </div>
                     </div>
                 </div>
-                <div ref="done-zone" class="flex justify-center item-center px-8 overflow-hidden transition-all" style="max-height: 0px;">
+                <div ref="done-zone" class="flex justify-center item-center px-2 md:px-8 overflow-hidden transition-all" style="max-height: 0px;">
                     <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-indigo-500 rounded-xl">
                         <p>
                             <GetText :context="Lang.CreateTranslationContext('main', 'InviteSent')" />
                         </p>
                     </div>
                 </div>
-                <div ref="fail-zone" class="flex justify-center item-center px-8 overflow-hidden transition-all" style="max-height: 0px;">
+                <div ref="fail-zone" class="flex justify-center item-center px-2 md:px-8 overflow-hidden transition-all" style="max-height: 0px;">
                     <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-red-500 rounded-xl">
                         <p>
                             <GetText :context="Lang.CreateTranslationContext('main', 'InviteError')" />
                         </p>
                     </div>
                 </div>
-                <div ref="exists-zone" class="flex justify-center item-center px-8 overflow-hidden transition-all" style="max-height: 0px;">
+                <div ref="exists-zone" class="flex justify-center item-center px-2 md:px-8 overflow-hidden transition-all" style="max-height: 0px;">
                     <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-green-500 rounded-xl">
                         <p>
                             <GetText :context="Lang.CreateTranslationContext('main', 'AlreadyBeta')" />
