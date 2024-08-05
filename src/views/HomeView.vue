@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col grow min-h-full h-fit min-w-0 max-w-full w-full bg-indigo-500">
         <div class="flex w-full h-fit justify-evenly items-center pt-40 ">
-            <div class="flex flex-col justify-start items-center">
+            <div class="flex flex-col justify-start items-center text-slate-200">
                 <div class="show-up flex w-fit h-fit justify-center items-center space-x-4 md:space-x-8 lg:space-x-12">
                     <PypollIcon class="w-24 md:w-32 lg:w-40 drop-shadow-lg" />
                     <div class="flex">
@@ -17,12 +17,12 @@
                 </p>
             </div>
         </div>
-        <svg viewBox="0 0 1440 150" version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <path fill="#334155"
+        <svg viewBox="0 0 1440 150" version="1.1" xmlns="http://www.w3.org/2000/svg" class="text-slate-200 dark:text-slate-700">
+            <path fill="currentColor"
                 d="M0,128L26.7,122.7C53.3,117,107,107,160,104C213.3,101,267,107,320,106.7C373.3,107,427,101,480,88C533.3,75,587,53,640,45.3C693.3,37,747,43,800,58.7C853.3,75,907,101,960,114.7C1013.3,128,1067,128,1120,125.3C1173.3,123,1227,117,1280,98.7C1333.3,80,1387,48,1440,37.3C1493.3,27,1547,37,1600,48C1653.3,59,1707,69,1760,66.7C1813.3,64,1867,48,1920,37.3C1973.3,27,2027,21,2080,21.3C2133.3,21,2187,27,2240,42.7C2293.3,59,2347,85,2400,90.7C2453.3,96,2507,80,2560,64C2613.3,48,2667,32,2720,37.3C2773.3,43,2827,69,2880,66.7C2933.3,64,2987,32,3040,26.7C3093.3,21,3147,43,3200,45.3C3253.3,48,3307,32,3360,29.3C3413.3,27,3467,37,3520,48C3573.3,59,3627,69,3680,82.7C3733.3,96,3787,112,3813,120L3840,128L3840,160L3813.3,160C3786.7,160,3733,160,3680,160C3626.7,160,3573,160,3520,160C3466.7,160,3413,160,3360,160C3306.7,160,3253,160,3200,160C3146.7,160,3093,160,3040,160C2986.7,160,2933,160,2880,160C2826.7,160,2773,160,2720,160C2666.7,160,2613,160,2560,160C2506.7,160,2453,160,2400,160C2346.7,160,2293,160,2240,160C2186.7,160,2133,160,2080,160C2026.7,160,1973,160,1920,160C1866.7,160,1813,160,1760,160C1706.7,160,1653,160,1600,160C1546.7,160,1493,160,1440,160C1386.7,160,1333,160,1280,160C1226.7,160,1173,160,1120,160C1066.7,160,1013,160,960,160C906.7,160,853,160,800,160C746.7,160,693,160,640,160C586.7,160,533,160,480,160C426.7,160,373,160,320,160C266.7,160,213,160,160,160C106.7,160,53,160,27,160L0,160Z">
             </path>
         </svg>
-        <div class="flex flex-col grow min-h-fit bg-slate-700">
+        <div class="flex flex-col grow min-h-fit bg-slate-200 dark:bg-slate-700">
             <span class="h-32 w-full" />
             <div class="flex justify-center item-center px-8 py-20">
                 <div class="show-right flex grow w-full  justify-center items-center">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="show-left hidden md:flex w-full h-full justify-center items-center">
-                    <PhoneView width="14" screen="/screens/register.jpg" :rotation="{ x: 20, y: -20, z: 5 }" />
+                    <PhoneView width="14" :screen="`/screens/register${darkMode?'':'-light'}.jpg`" :rotation="{ x: 20, y: -20, z: 5 }" />
                 </div>
             </div>
             <svg viewBox="0 0 1440 200" version="1.1" xmlns="http://www.w3.org/2000/svg" class="text-indigo-500">
@@ -55,10 +55,10 @@
             </svg>
             <div class="flex justify-center item-center px-8 pb-20 bg-indigo-500">
                 <div class="show-right hidden md:flex w-full h-full justify-center items-center">
-                    <PhoneView width="14" screen="/screens/createPoll.jpg" :rotation="{ x: 20, y: 20, z: -5 }" />
+                    <PhoneView width="14" :screen="`/screens/createPoll${darkMode?'':'-light'}.jpg`" :rotation="{ x: 20, y: 20, z: -5 }" />
                 </div>
                 <div class="show-left flex grow w-full  justify-center items-center">
-                    <div class="flex flex-col max-w-[30vw] space-y-8">
+                    <div class="flex flex-col max-w-[30vw] space-y-8 text-slate-200">
                         <h2>
                             <GetText :context="Lang.CreateTranslationContext('main', 'Bloc2TitleA')" />
                             <span class="highlight-dark">
@@ -103,7 +103,7 @@
                     </div>
                 </div>
                 <div class="show-left hidden md:flex w-full h-full justify-center items-center">
-                    <PhoneView width="14" screen="/screens/feed.jpg" :rotation="{ x: 20, y: -20, z: 5 }" />
+                    <PhoneView width="14" :screen="`/screens/feed${darkMode?'':'-light'}.jpg`" :rotation="{ x: 20, y: -20, z: 5 }" />
                 </div>
             </div>
             <span class="h-32 w-full" />
@@ -123,13 +123,13 @@
                     </div>
                 </div>
                 <div ref="beta-zone" class="flex justify-center item-center px-8 overflow-hidden transition-all" style="max-height: 0px;">
-                    <div class="flex flex-col w-fit h-fit p-4 border-2 rounded-xl border-slate-600 space-y-4">
-                        <p class="text-slate-400 italic">
+                    <div class="flex flex-col w-fit h-fit p-4 border-2 rounded-xl border-slate-400 dark:border-slate-600 space-y-4">
+                        <p class="text-slate-600 dark:text-slate-400 italic">
                             <GetText :context="Lang.CreateTranslationContext('main', 'IndicateEmail')" />
                         </p>
                         <div class="flex grow justify-center items-center space-x-4">
                             <p><GetText :context="Lang.CreateTranslationContext('main', 'Email')" /></p>
-                            <input type="email" name="email" class="bg-slate-600 rounded-lg p-2 focus:outline focus:outline-indigo-500">
+                            <input type="email" name="email" class="bg-slate-50 dark:bg-slate-600 rounded-lg p-2 focus:outline focus:outline-indigo-500">
                         </div>
                     </div>
                 </div>
@@ -154,7 +154,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="relative show-down flex w-full h-full pt-10 justify-center items-center">
+                <div class="relative show-down flex w-full h-full pt-10 justify-center items-center text-slate-200">
                     <button
                         class="flex z-50 p-4 bg-indigo-500 shadow-lg rounded-xl hover:-translate-y-1 hover:shadow-indigo-500/[0.2] hover:shadow-xl transition-all"
                         @mouseover="betaParticles" @click="() => { showBetaZone? sendBetaMail(): triggerBeta() }">
@@ -169,7 +169,7 @@
             </div>
             <span class="h-64 w-full" />
         </div>
-        <div class="flex flex-col bg-slate-800 p-4">
+        <div class="flex flex-col bg-slate-50 dark:bg-slate-800 p-4">
             <div class="flex w-full h-fit justify-center items-center">
                 <p class="text-center">Copyright © 2024 Pypoll. All rights reserved.</p>
                 <p class="px-4">|</p>
@@ -190,7 +190,6 @@ import PhoneView from "@/components/PhoneView.vue";
 import { animateShows } from "@/scripts/common";
 import { API } from "@/scripts/API";
 import ROUTES from "@/scripts/routes";
-import { RssIcon } from "@heroicons/vue/16/solid";
 
 export default defineComponent({
     components: {
@@ -202,7 +201,8 @@ export default defineComponent({
         return {
             Lang,
             name: "Pypoll",
-            showBetaZone: false
+            showBetaZone: false,
+            darkMode: window.matchMedia('(prefers-color-scheme: dark)').matches
         };
     },
     mounted() {
