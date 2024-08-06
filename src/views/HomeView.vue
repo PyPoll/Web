@@ -135,21 +135,21 @@
                 </div>
                 <div ref="done-zone" class="flex justify-center item-center px-2 md:px-8 overflow-hidden transition-all" style="max-height: 0px;">
                     <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-indigo-500 rounded-xl">
-                        <p>
+                        <p class="text-center">
                             <GetText :context="Lang.CreateTranslationContext('main', 'InviteSent')" />
                         </p>
                     </div>
                 </div>
                 <div ref="fail-zone" class="flex justify-center item-center px-2 md:px-8 overflow-hidden transition-all" style="max-height: 0px;">
                     <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-red-500 rounded-xl">
-                        <p>
+                        <p class="text-center">
                             <GetText :context="Lang.CreateTranslationContext('main', 'InviteError')" />
                         </p>
                     </div>
                 </div>
                 <div ref="exists-zone" class="flex justify-center item-center px-2 md:px-8 overflow-hidden transition-all" style="max-height: 0px;">
                     <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-green-500 rounded-xl">
-                        <p>
+                        <p class="text-center">
                             <GetText :context="Lang.CreateTranslationContext('main', 'AlreadyBeta')" />
                         </p>
                     </div>

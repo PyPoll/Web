@@ -148,9 +148,9 @@ p {
 }
 
 .highlight {
-    @apply text-indigo-500 underline border-indigo-500;
+    @apply text-indigo-500 dark:text-indigo-400 underline;
 }
 
 .highlight-dark {
-    @apply text-slate-800 underline border-indigo-500;
+    @apply text-slate-800 underline;
 }
