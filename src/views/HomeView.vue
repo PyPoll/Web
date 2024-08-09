@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div ref="toomuch-zone" class="flex justify-center item-center px-2 md:px-8 overflow-hidden transition-all" style="max-height: 0px;">
-                    <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-green-500 rounded-xl">
+                    <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-orange-500 rounded-xl">
                         <p class="text-center">
                             <GetText :context="Lang.CreateTranslationContext('main', 'TooMuchRequests')" />
                         </p>

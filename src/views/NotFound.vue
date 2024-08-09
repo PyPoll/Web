@@ -1,9 +1,9 @@
 <template>
     <div class="flex flex-col grow justify-evenly items-center">
         <div class="flex flex-col">
-            <div class="show-up flex w-fit h-fit justify-center items-center space-x-12">
-                <PypollIcon class="w-40 drop-shadow-lg" />
-                <h1 class="text-8xl font-extrabold drop-shadow-lg">
+            <div class="show-up flex w-fit h-fit justify-center items-center space-x-6 md:space-x-8 lg:space-x-12">
+                <PypollIcon class="w-24 md:w-32 lg:w-40 drop-shadow-lg" />
+                <h1 class="text-5xl md:text-7xl lg:text-8xl font-extrabold drop-shadow-lg">
                     <GetText :context="Lang.CreateTranslationContext('notfound', 'Woops')" />
                 </h1>
             </div>
