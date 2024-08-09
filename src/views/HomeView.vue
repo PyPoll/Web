@@ -157,7 +157,7 @@
                 <div class="relative show-down flex w-full h-full pt-10 justify-center items-center text-slate-200">
                     <button
                         class="flex z-50 p-4 bg-indigo-500 shadow-lg rounded-xl hover:-translate-y-1 hover:shadow-indigo-500/[0.2] hover:shadow-xl transition-all"
-                        @mouseover="betaParticles" @click="() => { showBetaZone? sendBetaMail(): triggerBeta() }">
+                        @mouseover="betaParticles" @click="() => { showBetaZone? sendBetaRequest(): triggerBeta() }">
                         <p v-show="showBetaZone" class="font-bold pointer-events-none">
                             <GetText :context="Lang.CreateTranslationContext('main', 'ValidateRegister')" />
                         </p>
@@ -259,7 +259,7 @@ export default defineComponent({
             const betaZone = this.$refs['beta-zone'] as HTMLElement;
             betaZone.style.maxHeight = betaZone.firstElementChild?.getBoundingClientRect().height + "px";
         },
-        async sendBetaMail() {
+        async sendBetaRequest() {
             const EMAIL_REGEX = /^.*@.*\..*$/;
             const emailInput = document.querySelector("input[name=email]") as HTMLInputElement;
             if (!emailInput) {

@@ -19,10 +19,10 @@
     "ReadyB": "try the app",
     "ReadyC": "?",
     "ReadyDesc": "Sign up as a beta tester to try the app before everyone else!",
-    "IndicateEmail": "Enter your email address to receive an invitation!",
+    "IndicateEmail": "Enter your email address to sign up as a beta tester!",
     "Email": "Email:",
-    "InviteSent": "Invitation sent! Check your mailbox 😉",
-    "InviteError": "Oops, unable to send the invitation... Please try again later!",
+    "BetaSaved": "Request saved! You will receive an email soon 😉",
+    "BetaError": "Oops, unable to save the request ... Try again later!",
     "AlreadyBeta": "You are already registered as a beta tester!",
     "ValidateRegister": "Validate registration",
     "RegisterBeta": "Sign up as a beta tester"

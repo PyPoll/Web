@@ -19,10 +19,10 @@
     "ReadyB": "essayer l'application",
     "ReadyC": " ?",
     "ReadyDesc": "Inscris toi en bêta testeur pour essayer l'application avant tout le monde !",
-    "IndicateEmail": "Indique ton adresse email pour recevoir une invitation !",
+    "IndicateEmail": "Indique ton adresse email pour t'inscrire en tant que bêta testeur !",
     "Email": "Email :",
-    "InviteSent": "Invitation envoyée ! Regarde ta boîte mail 😉",
-    "InviteError": "Oups, impossible d'envoyer l'invitation ... Réessaye plus tard !",
+    "BetaSaved": "Demande enregistrée ! Tu recevras un mail bientôt 😉",
+    "BetaError": "Oups, impossible d'enregistrer la demande... Réessaie plus tard !",
     "AlreadyBeta": "Tu es déjà inscrit en bêta testeur !",
     "ValidateRegister": "Valider l'inscription",
     "RegisterBeta": "S'inscrire en bêta testeur"
