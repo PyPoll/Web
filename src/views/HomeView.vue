@@ -136,14 +136,14 @@
                 <div ref="done-zone" class="flex justify-center item-center px-2 md:px-8 overflow-hidden transition-all" style="max-height: 0px;">
                     <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-indigo-500 rounded-xl">
                         <p class="text-center">
-                            <GetText :context="Lang.CreateTranslationContext('main', 'InviteSent')" />
+                            <GetText :context="Lang.CreateTranslationContext('main', 'BetaSaved')" />
                         </p>
                     </div>
                 </div>
                 <div ref="fail-zone" class="flex justify-center item-center px-2 md:px-8 overflow-hidden transition-all" style="max-height: 0px;">
                     <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-red-500 rounded-xl">
                         <p class="text-center">
-                            <GetText :context="Lang.CreateTranslationContext('main', 'InviteError')" />
+                            <GetText :context="Lang.CreateTranslationContext('main', 'BetaError')" />
                         </p>
                     </div>
                 </div>
@@ -151,6 +151,13 @@
                     <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-green-500 rounded-xl">
                         <p class="text-center">
                             <GetText :context="Lang.CreateTranslationContext('main', 'AlreadyBeta')" />
+                        </p>
+                    </div>
+                </div>
+                <div ref="toomuch-zone" class="flex justify-center item-center px-2 md:px-8 overflow-hidden transition-all" style="max-height: 0px;">
+                    <div class="flex flex-col w-fit h-fit p-4 space-y-4 border-2 border-green-500 rounded-xl">
+                        <p class="text-center">
+                            <GetText :context="Lang.CreateTranslationContext('main', 'TooMuchRequests')" />
                         </p>
                     </div>
                 </div>
@@ -278,7 +285,12 @@ export default defineComponent({
 
             const res = await API.Request(ROUTES.BETA.REGISTER(emailInput.value));
             if (res.error) {
-                const logZone = this.$refs[(res.status === 400)? 'exists-zone': 'fail-zone'] as HTMLElement;
+                const errors: any = {
+                    400: "exists-zone",
+                    429: "toomuch-zone"
+                };
+
+                const logZone = this.$refs[errors[res.status] ?? 'fail-zone'] as HTMLElement;
                 logZone.style.maxHeight = logZone.firstElementChild?.getBoundingClientRect().height + "px";
                 setTimeout(() => {
                     logZone.style.maxHeight = "0px";

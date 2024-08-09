@@ -24,6 +24,7 @@
     "BetaSaved": "Request saved! You will receive an email soon 😉",
     "BetaError": "Oops, unable to save the request ... Try again later!",
     "AlreadyBeta": "You are already registered as a beta tester!",
+    "TooMuchRequests": "Whoa, calm down! You have already made a request, you will receive an email soon 😉",
     "ValidateRegister": "Validate registration",
     "RegisterBeta": "Sign up as a beta tester"
 }

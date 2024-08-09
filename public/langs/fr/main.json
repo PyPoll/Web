@@ -24,6 +24,7 @@
     "BetaSaved": "Demande enregistrée ! Tu recevras un mail bientôt 😉",
     "BetaError": "Oups, impossible d'enregistrer la demande... Réessaie plus tard !",
     "AlreadyBeta": "Tu es déjà inscrit en bêta testeur !",
+    "TooMuchRequests": "Oulà, calmos ! Tu as déjà fait une demande, tu recevras un mail bientôt 😉",
     "ValidateRegister": "Valider l'inscription",
     "RegisterBeta": "S'inscrire en bêta testeur"
 }

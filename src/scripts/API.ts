@@ -122,8 +122,8 @@ export class Response {
 }
 
 export class API {
-    private static host: string = 'api.pypoll.com';
-    private static protocol: string = 'https';
+    private static host: string = window.location.hostname === 'localhost' ? 'localhost:8080' : 'api.pypoll.com';
+    private static protocol: string = window.location.protocol === 'http:' ? 'http' : 'https';
 
     public static CheckSetup() {
         if (!API.host)
