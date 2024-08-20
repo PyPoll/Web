@@ -180,9 +180,9 @@
             <div class="flex w-full h-fit justify-center items-center">
                 <p class="text-center">Copyright © 2024 Pypoll. All rights reserved.</p>
                 <p class="px-4">|</p>
-                <a href="/privacy" class="hover:text-white hover:underline text-center"><p>Privacy Policy</p></a>
+                <a href="/privacy" title="Privacy Policy" class="hover:text-white hover:underline text-center"><p>Privacy Policy</p></a>
                 <p class="px-4">|</p>
-                <a href="/terms" class="hover:text-white hover:underline text-center"><p>Terms of Use</p></a>
+                <a href="/terms" title="Terms of Use" class="hover:text-white hover:underline text-center"><p>Terms of Use</p></a>
             </div>
         </div>
     </div>
