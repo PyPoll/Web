@@ -6,7 +6,7 @@
             <li> Engage with us in other related ways, including any sales, marketing, or events </li>
         </ul>
 
-        <p><b>Questions or concerns?</b> Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="mailto:contact@furwaz.fr">contact@furwaz.fr</a>.</p>
+        <p><b>Questions or concerns?</b> Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="mailto:contact@furwaz.com">contact@furwaz.com</a>.</p>
 
         <span class="break" />
 
@@ -59,7 +59,7 @@
         <p>
             <b>How do you exercise your rights?</b>
             <br>
-            The easiest way to exercise your rights is by visiting https://furwaz.fr/my/profile, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
+            The easiest way to exercise your rights is by visiting https://furwaz.com/my/profile, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
         </p>
 
         <p>
@@ -237,7 +237,7 @@
 
         <p><b>In Short:</b> We do not knowingly collect data from or market to children under 18 years of age.</p>
 
-        <p>We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <a href="mailto:contact@furwaz.fr">contact@furwaz.fr</a>.</p>
+        <p>We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <a href="mailto:contact@furwaz.com">contact@furwaz.com</a>.</p>
 
         <span class="break" />
 
@@ -267,7 +267,7 @@
 
         <p>Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements.</p>
 
-        <p>If you have questions or comments about your privacy rights, you may email us at <a href="mailto:contact@furwaz.fr">contact@furwaz.fr</a>.</p>
+        <p>If you have questions or comments about your privacy rights, you may email us at <a href="mailto:contact@furwaz.com">contact@furwaz.com</a>.</p>
 
         <span class="break" />
 
@@ -285,7 +285,7 @@
 
         <h1 id="contact">13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h1>
 
-        <p>If you have questions or comments about this notice, you may email us at <a href="mailto:contact@furwaz.fr">contact@furwaz.fr</a> or contact us by post at:</p>
+        <p>If you have questions or comments about this notice, you may email us at <a href="mailto:contact@furwaz.com">contact@furwaz.com</a> or contact us by post at:</p>
 
         <p class="ml-4">
             Pypoll <br>
